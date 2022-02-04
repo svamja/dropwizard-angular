@@ -9,7 +9,7 @@ Original Git Repo -
 https://github.com/perspilling/angularjs-dropwizard-example
 
 
-Instead of AngularJS code a separate Jetty package, this repo is serving AngularJS code
+Instead of AngularJS code in a separate Jetty package, this repo is serving AngularJS code
 via resources/assets directory.
 
 For that below line is added to main application's initialize method:
@@ -17,7 +17,6 @@ For that below line is added to main application's initialize method:
     bootstrap.addBundle(new AssetsBundle("/assets", "/", "index.html"));
 
 And, `dropwizard-assets` is added as dependency in `pom.xml`.
-
 
 
 ## Run
