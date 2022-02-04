@@ -23,5 +23,5 @@ And, `dropwizard-assets` is added as dependency in `pom.xml`.
 ## Run
 
     mvn clean install
-    java -jar java -jar target/dropwizard-angular-1.0.jar
+    java -jar target/dropwizard-angular-1.0.jar
 
